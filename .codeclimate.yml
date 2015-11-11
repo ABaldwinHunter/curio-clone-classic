@@ -1,12 +1,13 @@
 ---
 engines:
-  radon:
-    enabled: true
+  fixme:
+    enabled: false
   pep8:
+    enabled: true
+  radon:
     enabled: true
 ratings:
   paths:
   - "**.py"
 exclude_paths:
-  - docs/**/*
-  - tests/workers.py
+- "docs/*"
